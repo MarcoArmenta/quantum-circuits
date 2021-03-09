@@ -11,5 +11,5 @@ cd requirements
 conda env create -f quantum.yml
 
 # activate the environment so that we install the project's package in it
-conda activate quantum.yml
+conda activate quantum
 pip install -e .
