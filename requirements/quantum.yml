@@ -1,0 +1,17 @@
+name: quantum
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python>=3.7
+  - pip
+  - scipy
+  - matplotlib
+  - pandas
+  - h5py
+  - pyyaml
+  - packaging
+  - seaborn
+  - pip:
+    - qiskit
+    - pylatexenc
