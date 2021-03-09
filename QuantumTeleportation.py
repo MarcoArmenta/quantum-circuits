@@ -1,4 +1,3 @@
-import numpy as np
 import matplotlib.pyplot as plt
 from qiskit.visualization import plot_histogram
 from qiskit import *
@@ -14,7 +13,7 @@ if __name__ == "__main__":
 	teleport.cx(1,2)
 	teleport.cz(0,2)
 	teleport.measure(2,2)
-	teleport.draw(output='mpl')
+	teleport.draw(output = 'mpl')
 
 	print('Qubit q0 after the X gate is in state |1>'\
 		' which will be teleported to qubit q2.')
