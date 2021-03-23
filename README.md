@@ -7,8 +7,7 @@ Some quantum circuits with Qiskit.
 First, install dependencies   
 ```bash
 # set-up project's environment
-cd requirements
-conda env create -f quantum.yml
+conda env create -f requirements/quantum.yml
 
 # activate the environment so that we install the project's package in it
 conda activate quantum
